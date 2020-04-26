@@ -1,0 +1,11 @@
+PUT metrics
+
+PUT /metrics/_mapping/_doc
+{
+  "properties": {
+    "domains": {"type": "keyword"},
+    "http2_metric": {"type": "keyword"},
+    "ipv6_metric": {"type": "keyword"},
+    "tls_metric": {"type": "keyword"}
+  }
+}

@@ -1,0 +1,9 @@
+PUT subdomains
+
+PUT /subdomains/_mapping/_doc
+{
+  "properties": {
+    "domains": {"type": "keyword"},
+    "no_of_subdomains": {"type": "number"}
+  }
+}

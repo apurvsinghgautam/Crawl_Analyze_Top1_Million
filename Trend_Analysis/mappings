@@ -1,0 +1,10 @@
+PUT majestic
+PUT alexa
+PUT tranco
+
+PUT /majestic,alexa,tranco/_mapping/_doc
+{
+  "properties": {
+    "domains": {"type": "keyword"}
+  }
+}
