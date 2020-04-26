@@ -38,7 +38,6 @@ The main challenges encountered for the analysis of security metrics, trends and
 1. A quality network with fast connections to domain servers around the globe - Many platforms such as GCP, AWS, Kaggle and Google Colab were tested for network performance. The fastest performance was obtained on Google Colab, which was used for all network based testing.
 2. Massive amounts of requests for subdomain enumeration were denied being from the same server (of Google Colab) - Many rotating proxy lists were tested, however, no proxy list was fast enough to produce satisfactory results. Therefore, multiple Google Colab accounts, a local script and a script on an AWS cloud machine were used to reduce the number of denied requests. 
 3. Less amount of data for trend analysis - Trend analysis of domains over a short period of 30 days is very localised and does not show long term behaviour or shift in popularity of any domain.
-4. CoVID-19 - The lockdown heavily diminished team efforts, which was also feuled by the final marking scheme of the project (5%).
 
 ## Results
 ### Results of Security Metrics Analysis
