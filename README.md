@@ -1,7 +1,7 @@
 # Crawling and Analyzing Top 1 Million Domains
 
 ## Introduction
-This is a a research project that uses the top 1 million list of domains from three data sources namely Majestic, Alexa, and Tranco to apply a set of security metrics and visualise the results of that analysis along with an analysis of the change in popularity of domains over a period of 30 days. Another goal for the project was to provide a tool to enumerate sub-domains in an efficient way, without compromising on quality results.
+This is a a research project that uses the top 1 million list of domains from three data sources namely Majestic, Alexa, and Tranco to apply a set of security metrics and visualise the results of that analysis along with an analysis of the change in popularity of domains for 30 days. Another goal for the project was to provide a tool to enumerate sub-domains in an efficient way, without compromising on quality results.
 
 ## Implementation
 The aforementioned goals were achieved using various python programs, the details about which are mentioned below -
