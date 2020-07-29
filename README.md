@@ -41,7 +41,23 @@ The main challenges encountered for the analysis of security metrics, trends and
 
 ## Results
 ### Results of Security Metrics Analysis
-Tranco data was used to generate results for these 3 security metrics. The result was stored in Elasticsearh database and Kibana dashboard is used to visualize the results as shown below. HTTP/2.0 adoption results were either `yes`, `no`, or `error`. IPv6 adoption results were same as HTTP/2.0 adoption results. TLS adoption results were either `TLS version` or `error`.
+Tranco data was used to generate results for these 3 security metrics. The result was stored in Elasticsearh database and Kibana dashboard is used to visualize the results as shown below. HTTP/2.0 adoption results were either `yes`, `no`, or `error`. IPv6 adoption results were same as HTTP/2.0 adoption results. TLS adoption results were either `TLS version` or `error`. 
+
+From the TLS Metric analysis, we saw the results as follow:
+- 27.16% of TLSv1.3
+- 33.67% of TLSv1.2
+- 0.003% of TLSv1.1
+- 0.3% of TLSv1.0
+
+From the HTTP/2.0 Metric analysis, we saw the results as follows:
+- 31.36% of sites adopted HTTP/2.0
+- 18.61% of sites didn't adopt HTTP/2.0
+- 50% of sites gave timeout error
+
+From the IPv6 Metric analysis, we saw the results as follows:
+- 15.1% of sites adopting IPv6
+- 81.57% of sites didn't adopt IPv6
+- 3.31% of sites gave timeout error
 
 ![](images/main_dashboard.png)
 
