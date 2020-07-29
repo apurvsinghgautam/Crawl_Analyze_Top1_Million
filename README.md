@@ -51,7 +51,7 @@ From the TLS Metric analysis, we saw the results as follow:
 
 From the HTTP/2.0 Metric analysis, we saw the results as follows:
 - 31.36% of sites adopted HTTP/2.0
-- 18.61% of sites didn't adopt HTTP/2.0
+- 18.62% of sites didn't adopt HTTP/2.0
 - 50% of sites gave timeout error
 
 From the IPv6 Metric analysis, we saw the results as follows:
